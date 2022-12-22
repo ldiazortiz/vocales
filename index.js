@@ -14,3 +14,8 @@ console.log(`La vocal o aparece ${vocalO} veces`);
 let vocalU = message.match(/u/gi).length;
 console.log(`La vocal u aparece ${vocalU} veces`);
 
+document.getElementById("a").innerHTML = `La vocal a aparece ${vocalA} veces`;
+document.getElementById("e").innerHTML = `La vocal e aparece ${vocalE} veces`;
+document.getElementById("i").innerHTML = `La vocal i aparece ${vocalI} veces`;
+document.getElementById("o").innerHTML = `La vocal o aparece ${vocalO} veces`;
+document.getElementById("u").innerHTML = `La vocal u aparece ${vocalU} veces`;
